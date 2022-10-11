@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>io.github.asewhy</groupId>
     <artifactId>net</artifactId>
     <version>1.0</version>
 
@@ -140,8 +140,9 @@
                             <goal>jar</goal>
                         </goals>
                         <configuration>
-                            <source>8</source>
-                            <javadocExecutable>/usr/lib/jvm/java-14-openjdk-amd64/bin/javadoc</javadocExecutable>
+                            <source>11</source>
+                            <detectJavaApiLink>false</detectJavaApiLink>
+                            <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
                         </configuration>
                     </execution>
                 </executions>
