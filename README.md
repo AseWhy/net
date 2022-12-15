@@ -27,11 +27,11 @@ class Example {
 
 На данный момент поддерживается только OS Linux
 
-| ОС      | Метод      | Подддержка |
-|---------|:-----------|:----------:|
-| Linux   | scanRoutes |     +      |
-| Linux   | scanWiFi   |     +      |
-| Windows | scanRoutes |     -      |
-| Windows | scanWiFi   |     -      |
-| Darwin  | scanRoutes |     -      |
-| Darwin  | scanWiFi   |     -      |
+| ОС      | Метод      | Поддержка |
+|---------|:-----------|:---------:|
+| Linux   | scanRoutes |     +     |
+| Linux   | scanWiFi   |     +     |
+| Windows | scanRoutes |     -     |
+| Windows | scanWiFi   |     -     |
+| Darwin  | scanRoutes |     -     |
+| Darwin  | scanWiFi   |     -     |
